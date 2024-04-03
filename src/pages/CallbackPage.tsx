@@ -14,7 +14,7 @@ function CallbackPage() {
   const state = fragmentParams.get("state");
   const idToken = fragmentParams.get("id_token");
   if (window.location.hash) {
-    window.location.href = `https://kanalab-back.blaize.technology/auth/google/callabck?state=${state};id_token=${idToken}`;
+    window.location.href = `https://kanalab-back.blaize.technology/auth/google/callback?state=${state}&id_token=${idToken}`;
     // fetch("https://kanalab-back.blaize.technology/auth/google/callabck", {
     //   method: "POST",
     //   headers: {
