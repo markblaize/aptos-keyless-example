@@ -27,6 +27,7 @@ function LoginPage() {
     response_type: "id_token",
     scope: "openid email profile",
     nonce: ephemeralKeyPair.nonce,
+    state: "state"
   });
   redirectUrl.search = searchParams.toString();
 
