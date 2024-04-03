@@ -27,7 +27,7 @@ function CallbackPage() {
     //   .catch((error) => {console.error("Error:", error); window.close()});
   }
 
-  window.close();
+  // window.close();
   console.log("closed");
 
   useEffect(() => {
